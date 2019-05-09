@@ -16,5 +16,27 @@
 }
 .content-container {
     margin-left: 1rem;
+    padding-right: .5rem;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.header-container .content-container .title-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-container .content-container .title-container .first {
+    padding: 1rem;
+    margin-right: .5rem;
+    font-weight: 500;
+}
+.header-container .content-container .title-container .second{
+    font-size: 80%;
+    color: #657786;
+}
+.header-container .content-container .content {
+    line-height: 1.25;
 }
