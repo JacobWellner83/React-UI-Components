@@ -3,7 +3,7 @@ import './Button.css';
 
 const ActionButton = props => {
     return (
-        <button className={``}>
+        <button className={`three-quarter-button ${props.className}`}>
             {props.text}
         </button>
     );
