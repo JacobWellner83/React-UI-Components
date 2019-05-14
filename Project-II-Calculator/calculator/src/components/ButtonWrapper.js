@@ -3,7 +3,7 @@ import './Button.css';
 
 const ButtonWrapper = props => {
     return (
-        <div className={``}>
+        <div className={`button-wrapper ${props.className}`}>
             {props.children}
         </div>
     );
