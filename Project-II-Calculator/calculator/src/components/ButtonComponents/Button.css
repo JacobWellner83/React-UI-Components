@@ -6,16 +6,16 @@
   
   .number-button {
     width: 100px;
-    border: 1px solid #eeee;
+    border: 1px solid #a39e9e;
   }
   
   .three-quarter-button {
     width: 300px;
-    border: 1px solid #eeee;
+    border: 1px solid #a39e9e;
   }
   
   .red-button {
-    background: red;
+    background: rgb(145, 16, 16);
     color: #eeee;
     text-align: center;
     line-height: 100px;
